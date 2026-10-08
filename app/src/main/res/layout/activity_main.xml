@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#1A1A2E"
+    android:padding="32dp">
+
+    <!-- Fan image -->
+    <ImageView
+        android:id="@+id/fanImage"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/fan"
+        android:contentDescription="Fan"
+        android:layout_marginBottom="48dp" />
+
+    <!-- Play button -->
+    <ImageButton
+        android:id="@+id/playButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@android:drawable/ic_media_play"
+        android:background="@drawable/circle_button"
+        android:contentDescription="Play"
+        android:layout_marginBottom="24dp"
+        android:scaleType="centerInside"
+        android:padding="16dp" />
+
+    <!-- Stop button -->
+    <ImageButton
+        android:id="@+id/stopButton"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@android:drawable/ic_media_pause"
+        android:background="@drawable/circle_button"
+        android:contentDescription="Stop"
+        android:scaleType="centerInside"
+        android:padding="16dp"
+        android:alpha="0.4" />
+
+</LinearLayout>
